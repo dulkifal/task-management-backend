@@ -2,8 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": "16.16.0"
+  },
   "scripts": {
-    "test": "nodemon src/app.js"
+    "test": "node src/app.js"
   },
   "keywords": [],
   "author": "",
