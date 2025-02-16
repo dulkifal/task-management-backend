@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "engines": {
-    "node": "16.16.0"
+    "node": "22.x"
   },
   "scripts": {
     "test": "node src/app.js"
