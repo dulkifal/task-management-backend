@@ -13,7 +13,9 @@ app.use(require('cors')());
 // Connect to MongoDB
 connectDB();
 // Routes
-app.use('/test', (req, res) => res.send('task-management'))
+
+app.get("/", (req, res) => res.send("Express on Vercel"));
+
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/tasks',errorHandler.checkBlacklist, require('./routes/task'));
 app.use('/api/users', require('./routes/users'));
